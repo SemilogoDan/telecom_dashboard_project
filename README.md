@@ -68,53 +68,54 @@ To run the **Telecom Site Monitoring Dashboard**, you will need:
 Activate the Virtual Environment:
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Install Dependencies
-pip install -r requirements.txt
+# Run the Application
 
-Run the Application
-streamlit run app.py
+## Usage
 
-Usage
-Register: Create a new account by providing a username, password, and role (admin, engineer, or manager).
+### Register
+Create a new account by providing a username, password, and role (admin, engineer, or manager).
 
-Login: Log in with your credentials to access the dashboard.
+### Login
+Log in with your credentials to access the dashboard.
 
-Upload Data: Upload a CSV file containing telecom site data.
+### Upload Data
+Upload a CSV file containing telecom site data.
 
-Filter Data: Use the sidebar filters to select a specific site and date range.
+### Filter Data
+Use the sidebar filters to select a specific site and date range.
 
-View Metrics: Explore the metrics, alerts, and visualizations based on your role.
+### View Metrics
+Explore the metrics, alerts, and visualizations based on your role.
 
-Role-Based Access
-Admin: Full access to all features, including predictive analytics and detailed charts. Can view and analyze data for all sites.
+## Role-Based Access
 
-Engineer: Access to detailed metrics and visualizations for a specific site. Ideal for engineers who need granular insights into site performance.
+- **Admin**: Full access to all features, including predictive analytics and detailed charts. Can view and analyze data for all sites.
+  
+- **Engineer**: Access to detailed metrics and visualizations for a specific site. Ideal for engineers who need granular insights into site performance.
 
-Manager: Access to summary metrics and alerts. Designed for managers who need high-level oversight of site operations.
+- **Manager**: Access to summary metrics and alerts. Designed for managers who need high-level oversight of site operations.
 
-Contributing
+## Contributing
+
 We welcome contributions from the community! To contribute:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix
+3. Commit your changes
+4. Push to your branch
+5. Submit a pull request describing your changes.
 
-Create a new branch for your feature or bug fix:
-git checkout -b feature-name
+## License
 
-Commit your changes:
-git commit -m "Add feature or fix"
-
-Push to your branch:
-git push origin feature-name
-
-Submit a pull request describing your changes.
-
-License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Support
+## Support
+
 If you encounter any issues or have questions, feel free to open an issue in the repository or contact the maintainers.
 
-Acknowledgments
-Built using Streamlit, Plotly, and Pandas.
-Inspired by the need for efficient telecom site monitoring and analysis.
+## Acknowledgments
+
+Built using Streamlit, Plotly, and Pandas. Inspired by the need for efficient telecom site monitoring and analysis.
+
+
 
