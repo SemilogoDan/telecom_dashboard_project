@@ -57,3 +57,21 @@ To run the **Telecom Site Monitoring Dashboard**, you will need:
    ```bash
    git clone https://github.com/your-repo/telecom-site-monitoring-dashboard.git
    cd telecom-site-monitoring-dashboard
+
+
+## Set Up a Virtual Environment (optional but recommended)
+
+1. **Create a Virtual Environment**:
+   ```bash
+   python -m venv venv
+   
+Activate the Virtual Environment:
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+Install Dependencies
+pip install -r requirements.txt
+
+Run the Application
+streamlit run app.py
+
+
