@@ -18,7 +18,11 @@ The **Telecom Site Monitoring Dashboard** is an intuitive and efficient web appl
 7. [License](#license)
 
 ---
+## Demo 🎬
 
+Here’s a quick demo of Telecom Site Monitoring Dashboard in action:
+
+![Screenshot](Network_monitor.gif)
 ## Features
 
 - **User Authentication**: Secure and straightforward user registration and login system with access tailored to specific roles.
