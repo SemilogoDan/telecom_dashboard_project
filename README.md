@@ -13,7 +13,7 @@ The **Telecom Site Monitoring Dashboard** is a Streamlit based web application d
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Role Based Access](#role based access)
+5.  [Role-Based Access](#role-based-access)
 6. [Contributing](#contributing)
 7. [License](#license)
 
